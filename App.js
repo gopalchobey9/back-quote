@@ -13,7 +13,7 @@ mongoose.connect("mongodb+srv://gopalchobey9:Do23BT93oUttO0jq@cluster0.n3lohkz.m
 .catch(err => console)
  
 app.use(express.urlencoded({extended:true}));
-app.use(cors({origin: ['https://fanciful-blini-f31419.netlify.app/']}));
+app.use(cors({origin: ['https://fanciful-blini-f31419.netlify.app']}));
 app.use(express.json());
 app.use(quoteRoute);
 
